@@ -6,6 +6,7 @@
  *  Time:    1:19 PM
  */
 
+
 class Shape {
     const SHAPE_TYPE = 1;
 
@@ -37,13 +38,14 @@ class Shape {
     }
 
     public static function getTypeDescription() {
-        return "Type: " + static::SHAPE_TYPE;
+        return "Type: " . static::SHAPE_TYPE;
     }
 
     public function getFullDescription() {
-        return "Shape<#" + $this->id + ">: " + $this->name +  " – " + $this->length + " x " + $this->width;
+        return "Shape<#" . $this->getId() . ">: " . $this->name .  " – " . $this->length . " x " . $this->width;
     }
 
 
 
 }
+
