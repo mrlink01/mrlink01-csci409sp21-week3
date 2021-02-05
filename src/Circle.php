@@ -27,8 +27,3 @@ class Circle extends Shape {
     }
 
 }
-
-$foo = new Circle(3);
-
-$foo->setName("Circle1");
-echo $foo->getFullDescription();
